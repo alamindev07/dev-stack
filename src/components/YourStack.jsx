@@ -7,7 +7,9 @@ const YourStack = ({
   onRemoveAll,
 }) => {
   return (
-    <aside className="h-fit rounded-xl border border-slate-200 bg-white p-5 shadow-sm lg:sticky lg:top-24">
+    <aside 
+    id="stack"
+    className="h-fit rounded-xl border border-slate-200 bg-white p-5 shadow-sm lg:sticky lg:top-24">
       {/* Header */}
       <div className="flex items-start justify-between gap-3">
         <div>

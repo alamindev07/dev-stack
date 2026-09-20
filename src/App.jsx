@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import LoadingSpinner from "./components/LoadingSpinner";
 import TechnologyGrid from "./components/TechnologyGrid";
 import YourStack from "./components/YourStack";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [technologies, setTechnologies] = useState([]);
@@ -154,6 +155,11 @@ const App = () => {
           </div>
         </section>
       </main>
+
+
+      {/* Footer section  start */}
+            <Footer />
+
 
       {/* Toast Notification */}
       <ToastContainer
